@@ -1,7 +1,8 @@
 // import moment here; use this package in each function
+const moment = require('moment')
 
 const today = () => {
-  // write code for dates.today
+  return moment().format('dddd')
 
 }
 
