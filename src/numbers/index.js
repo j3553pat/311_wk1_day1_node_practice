@@ -9,7 +9,10 @@ console.log(isEven(2))
 
 const sum = (arr) => {
   // write code for numbers.sum
-
+  for(let i = 0; i < arr.length; i++){
+     arr.reduce()
+  }
+  return arr
 }
 
 const comboSum = (arr, sum) => {

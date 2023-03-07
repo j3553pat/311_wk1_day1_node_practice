@@ -9,7 +9,7 @@ const pairs = (str) => {
 
 const reverse = (str) => {
   // write code for strings.reverse
-
+  return str.split('').reverse().join('')
 }
 
 module.exports = {

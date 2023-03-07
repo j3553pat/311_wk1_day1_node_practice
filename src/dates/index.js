@@ -8,12 +8,12 @@ const today = () => {
 
 const calendar = () => {
   // write code for dates.calendar
-
+return moment().format('MMM DD, YYYY')
 }
 
 const currentTime = () => {
   // write code for dates.currentTime
-
+  return moment().format('HH:MM:SS A')
 }
 
 module.exports = {
